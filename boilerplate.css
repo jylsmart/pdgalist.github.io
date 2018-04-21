@@ -57,9 +57,16 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    链接
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	color: #333333;
+}
+a:hover {
+	color: #333;
+}
 a:focus { outline: thin dotted; }
 
 /* 改善在所有浏览器中获取焦点和悬停时的可读性: h5bp.com/h */
@@ -67,6 +74,8 @@ a:hover, a:active {
 	outline: 0;
 	font-family: "Comic Sans MS", cursive;
 	color: #333;
+	font-size: 14px;
+	text-decoration: none;
 }
 
 
